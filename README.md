@@ -23,11 +23,6 @@ In this game, the player controls a character (or object) and must navigate thro
 - **Power-ups:** Collectible items that provide temporary boosts, such as speed increase or score multiplier.
 - **Scoring:** Points are earned by surviving and collecting power-ups.
 
-## Screenshots
-
-_(Include a few screenshots of your game in action if you'd like to visually demonstrate it.)_
-
-![Game Screenshot](Graphics/gameScreenshot.png)
 
 ## Installation
 
