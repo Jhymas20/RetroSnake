@@ -89,7 +89,7 @@ public:
 
     Food(deque<Vector2> snakeBody)
     {
-        Image image = LoadImage("Graphics/food.png"); // this is the image of the food
+        Image image = LoadImage("food.png"); // this is the image of the food
         texture = LoadTextureFromImage(image);        // this is the texture of the food
         UnloadImage(image);                           // this is the image of the food
         position = GenerateRandomPos(snakeBody);
@@ -137,8 +137,8 @@ public:
     Game()
     {
         InitAudioDevice();
-        eatSound = LoadSound("Sounds/eat.mp3");
-        wallSound = LoadSound("Sounds/wall.mp3");
+        eatSound = LoadSound("eat.mp3");
+        wallSound = LoadSound("wall.mp3");
     }
 
     ~Game()
